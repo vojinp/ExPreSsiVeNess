@@ -1,0 +1,12 @@
+setup.py
+data_parser_json.egg-info/PKG-INFO
+data_parser_json.egg-info/SOURCES.txt
+data_parser_json.egg-info/dependency_links.txt
+data_parser_json.egg-info/entry_points.txt
+data_parser_json.egg-info/namespace_packages.txt
+data_parser_json.egg-info/requires.txt
+data_parser_json.egg-info/top_level.txt
+data_parser_json.egg-info/zip-safe
+parser_plugin/__init__.py
+parser_plugin/json/__init__.py
+parser_plugin/json/json_parser.py

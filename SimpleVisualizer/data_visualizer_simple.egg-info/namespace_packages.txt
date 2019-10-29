@@ -1,0 +1,2 @@
+visualizer_plugin
+visualizer_plugin.simple

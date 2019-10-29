@@ -1,0 +1,3 @@
+[visualizer]
+simple_visualizer = visualizer_plugin.simple.simple_visualizer:SimpleVisualizer
+

@@ -1,0 +1,3 @@
+[parser]
+json_parser = parser_plugin.json.json_parser:JsonParser
+
