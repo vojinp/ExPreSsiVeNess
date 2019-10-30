@@ -3,23 +3,17 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render
 from django.http import HttpResponse
-import pkg_resources
-
+from django.shortcuts import render
+from services import plugin_loader
 # Create your views here.
 
 
-def core(request):
-    def load_plugins(tag):
-        plugins = {}
+def index(request):
+    visualizers = plugin_loader.load_plugins("visualizer")
+    parsers = plugin_loader.load_plugins("parser")
+    # html = plugin_loader.load_plugins("visualizer")['simple_visualizer'].get_template()
+    # f = open('./Core/templates/temp.html', 'w')
+    # f.write(html)
+    # f.close()
 
-        for ep in pkg_resources.iter_entry_points(group=tag):
-            p = ep.load()
-            print("{} {}".format(ep.name, p))
-            plugin = p()
-
-            plugins[ep.name] = plugin
-
-        return plugins
-
-    load_plugins("visualizer")
-    return load_plugins("visualizer")['simple_visualizer'].core()
+    return render(request, 'index.html', {'parsers': parsers, 'visualizers': visualizers})

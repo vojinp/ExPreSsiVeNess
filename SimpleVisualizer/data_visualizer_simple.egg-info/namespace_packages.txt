@@ -1,2 +1,3 @@
 visualizer_plugin
 visualizer_plugin.simple
+visualizer_plugin.simple.templates

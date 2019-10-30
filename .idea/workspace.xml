@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8303bb3f-6deb-49c9-8578-71eebea04eb5" name="Default Changelist" comment="" />
+    <list default="true" id="8303bb3f-6deb-49c9-8578-71eebea04eb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ExPreSsiVeNess/Core/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExPreSsiVeNess/Core/services/plugin_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExPreSsiVeNess/Core/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleVisualizer/visualizer_plugin/simple/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleVisualizer/visualizer_plugin/simple/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExPreSsiVeNess/Core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExPreSsiVeNess/Core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExPreSsiVeNess/Core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExPreSsiVeNess/Core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExPreSsiVeNess/ExPreSsiVeNess/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExPreSsiVeNess/ExPreSsiVeNess/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExPreSsiVeNess/ExPreSsiVeNess/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExPreSsiVeNess/ExPreSsiVeNess/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleVisualizer/build/lib.linux-x86_64-2.7/visualizer_plugin/simple/simple_visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/build/lib.linux-x86_64-2.7/visualizer_plugin/simple/simple_visualizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleVisualizer/data_visualizer_simple.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/data_visualizer_simple.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleVisualizer/data_visualizer_simple.egg-info/namespace_packages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/data_visualizer_simple.egg-info/namespace_packages.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleVisualizer/data_visualizer_simple.egg-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleVisualizer/dist/data_visualizer_simple-0.1-py2.7.egg" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/dist/data_visualizer_simple-0.1-py2.7.egg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleVisualizer/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleVisualizer/visualizer_plugin/simple/simple_visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/visualizer_plugin/simple/simple_visualizer.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,20 +37,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SsMaF8TZMBTS4uxHomDaGP6BM3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleVisualizer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SimpleVisualizer/visualizer_plugin/simple/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../SimpleVisualizer" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ExPreSsiVeNess/Core" />
+      <recent name="$PROJECT_DIR$/ExPreSsiVeNess/Core/templates" />
+      <recent name="$PROJECT_DIR$/ExPreSsiVeNess/Core/templates/Core" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/../JsonParser" />
-      <recent name="$PROJECT_DIR$/Core" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SimpleVisualizer/visualizer_plugin/simple/templates" />
+      <recent name="$PROJECT_DIR$/ExPreSsiVeNess/ExPreSsiVeNess/templates" />
+      <recent name="$PROJECT_DIR$/../SimpleVisualizer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -47,13 +76,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ExPreSsiVeNess" type="Python.DjangoServer" factoryName="Django server">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <module name="ExPreSsiVeNess" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="ExPreSsiVeNess.settings" />
       </envs>
       <option name="SDK_HOME" value="/usr/bin/python2.7" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -71,12 +99,13 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+    <configuration name="ExPreSsiVeNess" type="Python.DjangoServer" factoryName="Django server">
       <module name="ExPreSsiVeNess" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ExPreSsiVeNess.settings" />
       </envs>
       <option name="SDK_HOME" value="/usr/bin/python2.7" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -114,11 +143,36 @@
       <workItem from="1572353863836" duration="662000" />
       <workItem from="1572354569850" duration="83000" />
       <workItem from="1572354679107" duration="309000" />
+      <workItem from="1572355314302" duration="12000" />
+      <workItem from="1572355349942" duration="187000" />
+      <workItem from="1572355626144" duration="66000" />
+      <workItem from="1572355766876" duration="269000" />
+      <workItem from="1572356059853" duration="117000" />
+      <workItem from="1572356200455" duration="215000" />
+      <workItem from="1572356467450" duration="402000" />
+      <workItem from="1572357006748" duration="83000" />
+      <workItem from="1572357191245" duration="118000" />
+      <workItem from="1572357353198" duration="31000" />
+      <workItem from="1572357408365" duration="85000" />
+      <workItem from="1572358962887" duration="157000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

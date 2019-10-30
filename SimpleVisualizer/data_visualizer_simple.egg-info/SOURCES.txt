@@ -4,9 +4,10 @@ data_visualizer_simple.egg-info/SOURCES.txt
 data_visualizer_simple.egg-info/dependency_links.txt
 data_visualizer_simple.egg-info/entry_points.txt
 data_visualizer_simple.egg-info/namespace_packages.txt
+data_visualizer_simple.egg-info/not-zip-safe
 data_visualizer_simple.egg-info/requires.txt
 data_visualizer_simple.egg-info/top_level.txt
-data_visualizer_simple.egg-info/zip-safe
 visualizer_plugin/__init__.py
 visualizer_plugin/simple/__init__.py
 visualizer_plugin/simple/simple_visualizer.py
+visualizer_plugin/simple/templates/__init__.py
