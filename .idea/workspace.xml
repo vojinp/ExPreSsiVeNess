@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bb3f-6deb-49c9-8578-71eebea04eb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ExPreSsiVeNess/Core/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExPreSsiVeNess/Core/services/plugin_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExPreSsiVeNess/Core/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleVisualizer/visualizer_plugin/simple/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleVisualizer/visualizer_plugin/simple/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExPreSsiVeNess/test_file.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExPreSsiVeNess/Core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExPreSsiVeNess/Core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExPreSsiVeNess/Core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExPreSsiVeNess/Core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExPreSsiVeNess/ExPreSsiVeNess/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExPreSsiVeNess/ExPreSsiVeNess/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExPreSsiVeNess/ExPreSsiVeNess/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExPreSsiVeNess/ExPreSsiVeNess/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParser/build/lib.linux-x86_64-2.7/parser_plugin/json/json_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/JsonParser/build/lib.linux-x86_64-2.7/parser_plugin/json/json_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParser/dist/data_parser_json-0.1-py2.7.egg" beforeDir="false" afterPath="$PROJECT_DIR$/JsonParser/dist/data_parser_json-0.1-py2.7.egg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParser/parser_plugin/json/json_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/JsonParser/parser_plugin/json/json_parser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleVisualizer/build/lib.linux-x86_64-2.7/visualizer_plugin/simple/simple_visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/build/lib.linux-x86_64-2.7/visualizer_plugin/simple/simple_visualizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleVisualizer/data_visualizer_simple.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/data_visualizer_simple.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleVisualizer/data_visualizer_simple.egg-info/namespace_packages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/data_visualizer_simple.egg-info/namespace_packages.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleVisualizer/data_visualizer_simple.egg-info/zip-safe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleVisualizer/dist/data_visualizer_simple-0.1-py2.7.egg" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/dist/data_visualizer_simple-0.1-py2.7.egg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleVisualizer/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleVisualizer/visualizer_plugin/simple/simple_visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVisualizer/visualizer_plugin/simple/simple_visualizer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,17 +41,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ExPreSsiVeNess/Core" />
-      <recent name="$PROJECT_DIR$/ExPreSsiVeNess/Core/templates" />
-      <recent name="$PROJECT_DIR$/ExPreSsiVeNess/Core/templates/Core" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/../JsonParser" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SimpleVisualizer/visualizer_plugin/simple/templates" />
       <recent name="$PROJECT_DIR$/ExPreSsiVeNess/ExPreSsiVeNess/templates" />
       <recent name="$PROJECT_DIR$/../SimpleVisualizer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ExPreSsiVeNess" />
+      <recent name="$PROJECT_DIR$/ExPreSsiVeNess/ExPreSsiVeNess" />
+      <recent name="$PROJECT_DIR$/ExPreSsiVeNess/Core" />
+      <recent name="$PROJECT_DIR$/ExPreSsiVeNess/Core/templates" />
+      <recent name="$PROJECT_DIR$/ExPreSsiVeNess/Core/templates/Core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.python manage.py runserver">
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <module name="ExPreSsiVeNess" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,6 +88,27 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python manage.py runserver" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ExPreSsiVeNess" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="ExPreSsiVeNess" type="Python.DjangoServer" factoryName="Django server">
@@ -123,6 +135,9 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.python manage.py runserver" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -181,6 +196,11 @@
           <url>file://$PROJECT_DIR$/Core/views.py</url>
           <line>24</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ExPreSsiVeNess/Core/views.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
