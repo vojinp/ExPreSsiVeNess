@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Core</title>
+    {% block head_content %}
+    {% endblock head_content %}
+</head>
+<body>
+Visualizers:
+<br>
+<select onchange="window.location.href='http://127.0.0.1:8000/visualize/' + this.value">
+    <option value=""></option>
+    {% for visualizer in visualizers %}
+        <option value="{{visualizer}}">{{visualizer}} </option>
+    {% endfor %}
+</select>
+
+{% block content %}
+{% endblock content %}
+</body>
+</html>

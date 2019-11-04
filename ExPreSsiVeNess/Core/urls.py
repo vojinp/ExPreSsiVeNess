@@ -1,8 +1,9 @@
-from django.conf.urls import url, include
+from django.conf.urls import url
 
 
 from . import views
 
 urlpatterns = [
-    url('', views.index),
+    url(r'^$', views.index),
+    url(r'visualize/(?P<visualizer>\w+)', views.showVisualizer)
 ]

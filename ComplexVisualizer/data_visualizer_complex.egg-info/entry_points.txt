@@ -1,0 +1,3 @@
+[visualizer]
+complex_visualizer = visualizer_plugin.complex.complex_visualizer:ComplexVisualizer
+

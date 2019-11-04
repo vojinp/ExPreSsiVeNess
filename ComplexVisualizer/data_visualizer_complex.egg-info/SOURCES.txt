@@ -1,0 +1,13 @@
+setup.py
+data_visualizer_complex.egg-info/PKG-INFO
+data_visualizer_complex.egg-info/SOURCES.txt
+data_visualizer_complex.egg-info/dependency_links.txt
+data_visualizer_complex.egg-info/entry_points.txt
+data_visualizer_complex.egg-info/namespace_packages.txt
+data_visualizer_complex.egg-info/not-zip-safe
+data_visualizer_complex.egg-info/requires.txt
+data_visualizer_complex.egg-info/top_level.txt
+visualizer_plugin/__init__.py
+visualizer_plugin/complex/__init__.py
+visualizer_plugin/complex/complex_visualizer.py
+visualizer_plugin/complex/templates/__init__.py

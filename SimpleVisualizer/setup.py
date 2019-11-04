@@ -4,7 +4,7 @@ setup(
     name="data-visualizer-simple",
     version="0.1",
     packages=find_packages(),
-    install_requires=['expressiveness-core>=0.1', 'Django>=1.10'],
+    install_requires=['expressiveness-core>=0.1'],
     namespace_packages=['visualizer_plugin', 'visualizer_plugin.simple', 'visualizer_plugin.simple.templates'],
     package_data={'visualizer_plugin.simple.templates': ['*.html']},
     include_package_data=True,

@@ -1,5 +1,7 @@
-<html>
-<head>
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block head_content %}
     <title>Simple visualizer</title>
     <style>
 
@@ -19,11 +21,10 @@
         }
 
     </style>
-</head>
-<body>
-<!--{{ data }}-->
+{% endblock head_content %}
 
-<svg width="960" height="600"></svg>
+{% block content %}
+<svg width="2000" height="600"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 var svg = d3.select("svg"),
@@ -147,5 +148,4 @@ function dragended(d) {
   d.fy = null;
 }
 </script>
-</body>
-</html>
+{% endblock content %}
